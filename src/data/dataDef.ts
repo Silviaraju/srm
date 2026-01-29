@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
+import {FC, ForwardRefExoticComponent, ReactNode, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
@@ -39,7 +39,7 @@ interface HeroActionItem {
  */
 export interface About {
   profileImageSrc?: string;
-  description: string;
+  description: ReactNode;
   aboutItems: AboutItem[];
 }
 
