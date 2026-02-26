@@ -28,8 +28,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Silvia Raju Marihal',
-  description: "Personal portfolio website",
+  title: 'React Resume Template',
+  description: "Example site built with Tim Baker's react resume template",
 };
 
 /**
@@ -257,11 +257,12 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'August 2023 - Present',
-    location: 'Meta via Sigma Connectivity, Carlsbad, CA',
+    location: 'Sigma Connectivity, Carlsbad, CA',
     title: 'Software Engineer',
     content: (
     <div>
   <p className="font-semibold mb-2">
+    Client project: Meta
   </p>
 
   <ul className="list-disc list-inside space-y-2">
@@ -290,11 +291,6 @@ export const experience: TimelineItem[] = [
     <li>
       Wrote Python automation scripts to streamline developer workflows, validate data pipelines, and integrate
       metrics into dashboards; deployed and operated these services on AWS-based infrastructure.
-    </li>
-    <li>
-      Improved CI/CD reliability by writing optimized Presto queries to analyze build and deployment metrics, 
-      surfacing failure trends through custom dashboard widgets that reduced mean time to detect (MTTD) and 
-      improved pipeline transparency across engineering teams.
     </li>
     <li>
       Actively collaborated in Agile Scrum teams, participating in sprint planning, standups, retrospectives,
