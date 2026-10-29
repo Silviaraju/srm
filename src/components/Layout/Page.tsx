@@ -17,9 +17,9 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         {/* several domains list the same content, make sure google knows we mean this one. */}
         <link href={`https://reactresume.com${pathname}`} key="canonical" rel="canonical" />
 
-        <link href="/favicon.ico" rel="icon" sizes="any" />
-        <link href="/icon.svg" rel="icon" type="image/svg+xml" />
-        <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
+        <link href="/favicon.ico?v=srm" rel="icon" sizes="any" />
+        <link href="/icon.svg?v=srm" rel="icon" type="image/svg+xml" />
+        <link href="/apple-touch-icon.png?v=srm" rel="apple-touch-icon" />
         <link href="/site.webmanifest" rel="manifest" />
 
         {/* Open Graph : https://ogp.me/ */}
